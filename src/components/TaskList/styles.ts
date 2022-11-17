@@ -13,12 +13,12 @@ export const styles = StyleSheet.create({
 	text1: {
 		marginTop: 16,
 		color: THEME.COLORS.GRAY_300,
-		fontWeight: 'bold',
 		fontSize: THEME.FONT_SIZE.MD,
+		fontFamily: THEME.FONT_FAMILY.BOLD,
 	},
 	text2: {
 		color: THEME.COLORS.GRAY_300,
-		fontWeight: 'normal',
+		fontFamily: THEME.FONT_FAMILY.REGULAR,
 		fontSize: THEME.FONT_SIZE.MD,
 	},
 });

@@ -7,16 +7,16 @@ export const styles = StyleSheet.create({
 		alignItems: 'center',
 	},
 	textTitleCreated:{
+		fontFamily: THEME.FONT_FAMILY.BOLD,
 		color: THEME.COLORS.BLUE,
 		marginRight: 16,
 		fontSize: THEME.FONT_SIZE.MD,
-		fontWeight: 'bold',
 	},
 	textTitleFinished:{
+		fontFamily: THEME.FONT_FAMILY.BOLD,
 		color: THEME.COLORS.PURPLE,
 		marginRight: 16,
 		fontSize: THEME.FONT_SIZE.MD,
-		fontWeight: 'bold',
 	},
 	counterContainer: {
 		backgroundColor: THEME.COLORS.GRAY_400,
@@ -27,8 +27,8 @@ export const styles = StyleSheet.create({
 		justifyContent: 'center',
 	},
 	counterText: {
+		fontFamily: THEME.FONT_FAMILY.BOLD,
 		color: THEME.COLORS.GRAY_200,
 		fontSize: THEME.FONT_SIZE.MD,
-		fontWeight: 'bold',
 	},
 });

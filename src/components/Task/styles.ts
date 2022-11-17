@@ -30,6 +30,7 @@ export const styles = StyleSheet.create({
 		justifyContent: 'center',
 	},
 	textTitle: {
+		fontFamily: THEME.FONT_FAMILY.REGULAR,
 		color: THEME.COLORS.GRAY_100,
 		fontSize: THEME.FONT_SIZE.MD,
 		marginLeft: 8,
@@ -37,6 +38,7 @@ export const styles = StyleSheet.create({
 		maxWidth: 235,
 	},
 	textTitleChecked: {
+		fontFamily: THEME.FONT_FAMILY.REGULAR,
 		color: THEME.COLORS.GRAY_300,
 		fontSize: THEME.FONT_SIZE.MD,
 		marginLeft: 8,
